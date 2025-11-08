@@ -74,6 +74,10 @@ footer{
     background-color: #cccccc;
 }
 
+div {
+    border-radius: 55px 0px;
+}
+
 .win {
     width: 49%;
     margin: 15px auto;
@@ -126,4 +130,13 @@ footer{
     position: relative;
     top: 30px;
     margin: 10px;
+}
+
+.skip {
+    position: absolute;
+    left: -1000px;
+}
+
+:focus {
+    position: static;
 }
